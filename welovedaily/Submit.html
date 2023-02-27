@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/Submit.css">
+    <link rel="stylesheet" href="font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Share your work with 1.9M creatives.</title>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div class="nav-bar">
+                <a class="logo" href="ShareYourWork.html"><img src="https://www.welovedaily.com/assets/img/welovelogo.svg"></a>
+                <h1>Submit your work</h1>
+                <a class="faq-button" href="FAQ.html"><img src="https://www.welovedaily.com/assets/img/icon-faq.svg">FAQ</a>
+            </div>
+        </div>
+
+        <div id="slider">
+            <h3 class="center">Package</h3>
+
+            <div class="choose-package">
+                <div class="radio-p pack-regular">
+                    <input id="package pack1" type="radio" class="form-check-input" name="optradio">
+                    <h4 class="pack-badge">Regular</h4>
+                    <h2>15 EUR</h2>
+                    <span>or 19 USD</span>
+                </div>
+
+                <div class="radio-p pack-pro">
+                    <input id="package pack2" type="radio" class="form-check-input" name="optradio">
+                    <h4 class="pack-badge pack-badge-pro" >Pro</h4>
+                    <h2>25 EUR</h2>
+                    <span>or 32 USD</span>
+                </div>
+                <div class="btn">See the difference</div>
+            </div>
+
+            <h3 class="center">Post Credentials</h3>
+        
+        </div>
+
+        <div id="content">
+            <label class="first-label">Upload logo 
+                <span class="pro-badge">Pro</span>
+            </label>
+
+            <div class="input-group mb-3 px-2 py-2 rounded-pill bg-white shadow-sm">
+                <input id="upload" type="file" onchange="readURL(this);" class="form-control border-0" style="display: none;">
+                <div class="input-group-append">
+                    <label for="upload" class="btn btn-light m-0 rounded-pill px-4"> <i class="fa fa-cloud-upload mr-2 text-muted"></i><small class="text-uppercase font-weight-bold text-muted">Choose file</small></label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="usr">Name</label>
+                <input type="text" class="form-control " id="usr" placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Email</label>
+                <input type="text" class="form-control " id="pwd" placeholder="John@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="usr">Project Link</label>
+                <input type="text" class="form-control " id="usr" placeholder="http://instagram.com/1234567/" >
+            </div>
+            <div class="form-group">
+                <label for="pwd">Instagram Handle</label>
+                <input type="text" class="form-control " id="pwd" placeholder="@JohnDoe">
+            </div>
+
+
+            <div class="form-check">
+                <label class="form-check-label" style=" padding: 15px 74px 14px 0px; font-size: 20px;" >
+                    <input type="radio" class="form-check-input" name="optradio" style = "padding: 20px;">welovewebdesign
+                    <span class="welovewebdesign-number">740K</span>
+                </label>
+
+                <label class="form-check-label" style="font-size: 20px;">
+                    <input type="radio" class="form-check-input" name="optradio">welovebranding
+                    <span class="welovebranding-number">542K</span>
+                </label>
+            </div>
+
+            <div class="form-check">
+                <label class="form-check-label" style="padding-right: 75px; font-size: 20px;">
+                    <input type="radio" class="form-check-input" name="optradio">weloveillustration
+                    <span class="weloveillustration-number">498K</span>
+                </label>
+
+                <label class="form-check-label"style="font-size: 20px;">
+                    <input type="radio" class="form-check-input" name="optradio">weloveillustration 
+                    <span class="weloveanimations-number">193K</span>
+                </label>
+            </div>
+
+            <div class="pp-rule">
+                <p>Once your work has been reviewed and accepted we will send a PayPal payment link.</p>
+                <img src="img/logo-paypal.png" alt="">
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="bar-bottom">
+                <a href="ShareYourWork.html" class="btn cancel">Cancel</a>
+                <a href="" class="btn submit">Submit</a>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
